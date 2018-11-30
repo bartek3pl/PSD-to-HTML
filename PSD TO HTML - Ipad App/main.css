@@ -1,0 +1,340 @@
+body
+{
+	background-color: #fefefe;
+	font-family: 'Droid Serif', serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo
+{
+	background-color: #cc3333;
+	width: 180px;
+	height: 80px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	float: left;
+}
+
+.logo h1
+{
+	font-weight: 700;
+	font-size: 28px;
+	color: #fff;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 21px;
+}
+
+.navigation ul
+{
+	text-decoration-style: none;
+	list-style-type: none;
+	font-size: 18px;
+	color: #333333;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 780px;
+}
+
+.navigation ul > li
+{
+	min-width: 50px;
+	float: left;
+	margin-right: 25px;
+	margin-top: 20px;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.1s ease;
+}
+
+.navigation ul > li:hover
+{
+	border-bottom: 3px solid #333333;
+}
+
+.together
+{
+	width: 1000px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container
+{
+	width: 100%;
+}
+
+.feature
+{
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.contentleft
+{
+	width: 550px;	
+	float: left;
+}
+
+.contentright
+{
+	width: 450px;
+	float: left;
+}
+
+h2
+{
+	font-size: 48px;
+	font-weight: 700;
+	color: black;
+	width: 550px;
+	margin-top: 60px;
+	margin-bottom: 0;
+	padding: 0;
+	margin-left: 10px;
+}
+
+.contentleft p
+{
+	font-weight: 400;
+	font-style: italic;
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 20px;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: 110px;
+}
+
+.smallimg
+{
+	width: 550px;
+	height: 200px;
+}
+
+.smallimg .img
+{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;	
+}
+
+.bigimg
+{
+	width: 358px;
+	height: 505px;
+}
+
+.bigimg .img
+{
+	margin-left: 25px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
+.leftarrow
+{
+	float: left;
+	width: 100px;
+	height: 500px;
+}
+
+.icon-left-open
+{
+	font-size: 45px;
+	text-align: center;
+	color: #cccccc;
+	position: absolute;
+	top: 300px;
+}
+
+.rightarrow
+{
+	float: left;
+	width: 100px;
+	height: 500px;
+}
+
+.icon-right-open
+{
+	font-size: 45px;
+	text-align: center;
+	color: #cccccc;
+	position: absolute;
+	top: 300px;
+}
+
+.dot
+{
+	float: left;
+	letter-spacing: 3px;
+	width: 25px;
+	height: 25px;
+}
+
+.icon-circle-empty
+{
+	color: #333333;
+	font-size: 17px;
+}
+
+.icon-circle-empty:hover
+{
+	color: #cc3333;
+}
+
+.lower
+{
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lowercontent
+{
+	width: 100%;
+	background-color: #333333;
+	color: #fff;
+	min-height: 390px;
+}
+
+.Both
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	padding-top: 18px;
+}
+
+.lowercontent .Both .Left
+{
+	width: 610px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.Left p
+{
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.lowercontent .Both .Right
+{
+	float: left;
+	width: 350px;
+	margin-left: 20px;
+}
+
+h4
+{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.date
+{
+	width: 340px;
+	height: 65px;
+}
+
+.circle
+{
+	background-color: #444444;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	float: left;
+
+}
+
+.circle p
+{
+	font-size: 17.5px;
+	text-align: center;
+}
+
+.words
+{
+	width: 240px;
+	height: 60px;
+	float: left;
+	margin-left: 20px;
+}
+
+.words p
+{
+	color: #666666;
+}
+
+.footer
+{
+	background-color: #191919;
+	min-height: 90px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.footertogether
+{
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.footerleft
+{
+	width: 320px;
+	margin-left: 10px;
+	padding-top: 32px;
+	float: left;
+}
+
+.footerleft a
+{
+	color: #fff;
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	font-weight: 400;
+}
+
+.footerright
+{
+	width: 650px;
+	padding-top: 16px;
+	margin-left: 0;
+	float: left;
+}
+
+.footerright ul > li
+{
+	color: #fff;
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	list-style-type: none;
+	margin-right: 20px;
+	display: inline-block;
+	min-width: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+
+
+
